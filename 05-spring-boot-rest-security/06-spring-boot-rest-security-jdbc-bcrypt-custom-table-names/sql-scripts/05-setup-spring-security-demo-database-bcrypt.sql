@@ -24,6 +24,7 @@ CREATE TABLE `users` (
 -- Default passwords here are: fun123
 --
 
+-- {bcrypt} telling spring that using bcrypt for password-hashing
 INSERT INTO `users` 
 VALUES 
 ('john','{bcrypt}$2a$10$qeS0HEh7urweMojsnwNAR.vcXJeXR1UcMRZ2WcGQl9YeuspUdgF.q',1),
